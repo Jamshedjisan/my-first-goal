@@ -8,6 +8,10 @@ h1 {
   font-family: "Yeseva One", cursive;
   font-size: 50px;
 }
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
 
 p {
   width: 80%;
@@ -21,13 +25,14 @@ p {
   border-color: red;
   border-image-slice: 1;
 }
-section {
+.flex-contain {
   display: flex;
 }
 .part-one {
   width: 50%;
   padding-left: 10%;
   padding-top: 7%;
+  padding-bottom: 5%;
 }
 .part-one img {
   width: 80%;
@@ -49,4 +54,84 @@ a {
   font-family: "Poppins", sans-serif;
   font-family: "Vidaloka", serif;
   font-family: "Yeseva One", cursive;
+}
+.sector {
+  border-radius: 4%;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 10px;
+}
+.edit {
+  width: 130px;
+}
+.text-edit {
+  font-size: 25px;
+}
+#first-one {
+  background-color: rgb(221, 221, 243);
+}
+#second-one {
+  background-color: rgba(190, 183, 183, 0.87);
+}
+#third-one {
+  background-color: rgb(192, 235, 243);
+}
+#develop h1 {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Vidaloka", serif;
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+}
+.decoration {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 40%;
+}
+.third-mission {
+  width: 90%;
+}
+.shape {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30%;
+  padding-bottom: 5%;
+}
+
+.decorating {
+  background-image: url("images/shapes/shape-2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 70%;
+  margin-left: 40px;
+}
+.decorating img {
+  width: 100%;
+  margin-right: 20px;
+}
+#last-write {
+  padding-right: 10%;
+}
+#final-edit {
+  padding-right: 10%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+}
+.foot-mission {
+  color: bisque;
+}
+#foot-color {
+  color: red;
+}
+small {
+  color: white;
+  margin-bottom: 10%;
 }
